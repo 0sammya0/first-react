@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import List from './List';
+import Counter from './hooks-pratica/Counter';
+import Timer from './hooks-pratica/Timer';
 
 function App() {
 
@@ -9,8 +11,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* o componente List eh add aqui */}
         <List items={myItems} />
+        <Counter />
+        <Timer />
       </header>
     </div>
   );
