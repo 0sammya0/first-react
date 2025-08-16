@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+/* --------------------------------------------- */
+/* Estilos ADICIONADOS para a sua Lista */
+/* --------------------------------------------- */
+
+.list-container {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.list-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.list-container ul {
+  list-style-position: inside;
+  padding-left: 0.5em;
+}
+
+.list-container li {
+  font-size: 18px;
+  padding: 8px 0;
+  border-bottom: 1px solid #444;
+}
+
+/* --------------------------------------------- */
+/* Estilos ADICIONADOS para o Contador e Timer */
+/* --------------------------------------------- */
+
+.counter-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.counter-text {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: white;
+}
+
+.counter-button {
+  font-size: 1.5em;
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timer-container {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.timer-text {
+  font-size: 1.1em;
+  font-weight: bold;
+}
